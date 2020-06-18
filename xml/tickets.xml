@@ -48,7 +48,7 @@
             <privilege>admin</privilege>
             <name>John</name>
             <username>admin-01</username>
-            <password>$2y$10$EMo9fTp2Hgoxts3ifkRzP.cQALNJEogRPVaq10ZhFyGMJ/3Q2JnKK</password>
+            <password>Hashed Password goes here</password>
         </user>
 
         <user userid="2">
@@ -56,7 +56,7 @@
             <privilege>client</privilege>
             <name>Mary</name>
             <username>user-02</username>
-            <password>$2y$10$wZEbBypiW89oqCd92h0BD.hUjsmrNDq8WEsQGYDObT4p69uOSBex.</password>
+            <password>Hashed Password goes here</password>
         </user>
 
         <user userid="3">
@@ -64,7 +64,7 @@
             <privilege>client</privilege>
             <name>George</name>
             <username>user-03</username>
-            <password>$2y$10$RYln/XcspQyFf2ScyAeXn.ccVm4B46vITg.azxAzVIldIr5RLCYPG</password>
+            <password>Hashed Password goes here</password>
         </user>
     </users>
 </support>
