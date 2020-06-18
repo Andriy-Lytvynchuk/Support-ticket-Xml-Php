@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<support>
+    <tickets>
+        <ticket ticketid="1" userid="2">
+            <ticketid>1</ticketid>
+            <userid>2</userid>
+            <date>January 8, 2020</date>
+            <status>ongoing</status>
+            <subject>test1</subject>
+            <messages>
+                <message from="Client">test1 question1</message>
+                <message from="Admin">test1 response1</message>
+                <message from="Client">question2</message>
+                <message from="Admin">response2</message>
+            </messages>
+
+        </ticket>
+
+        <ticket userid="2" ticketid="2">
+            <ticketid>2</ticketid>
+            <userid>2</userid>
+            <date>January 8, 2020</date>
+            <status>resolved</status>
+            <subject>test 2</subject>
+            <messages>
+                <message from="Client">question 2</message>
+                <message from="Admin">answer 2</message>
+            </messages>
+        </ticket>
+        
+        <ticket userid="3" ticketid="3">
+            <ticketid>3</ticketid>
+            <userid>3</userid>
+            <date>January 8, 2020</date>
+            <status>test 3</status>
+            <subject>test 3</subject>
+            <messages>
+                <message from="Client">question 3</message>
+                <message from="Admin">answer 3</message>
+            </messages>
+        </ticket>
+    
+    </tickets>
+
+    <users>
+        <user userid="1">
+            <userid>1</userid>
+            <privilege>admin</privilege>
+            <name>John</name>
+            <username>admin-01</username>
+            <password>$2y$10$EMo9fTp2Hgoxts3ifkRzP.cQALNJEogRPVaq10ZhFyGMJ/3Q2JnKK</password>
+        </user>
+
+        <user userid="2">
+            <userid>2</userid>
+            <privilege>client</privilege>
+            <name>Mary</name>
+            <username>user-02</username>
+            <password>$2y$10$wZEbBypiW89oqCd92h0BD.hUjsmrNDq8WEsQGYDObT4p69uOSBex.</password>
+        </user>
+
+        <user userid="3">
+            <userid>3</userid>
+            <privilege>client</privilege>
+            <name>George</name>
+            <username>user-03</username>
+            <password>$2y$10$RYln/XcspQyFf2ScyAeXn.ccVm4B46vITg.azxAzVIldIr5RLCYPG</password>
+        </user>
+    </users>
+</support>
